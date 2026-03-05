@@ -409,12 +409,12 @@
 
     /* ── INVESTMENT HIGHLIGHTS ── */
     #highlights {
-      background: var(--navy);
+      background: #f7f3ef;
       padding: 5rem 2rem;
     }
 
-    #highlights .section-title { color: var(--white); }
-    #highlights .section-label { color: var(--orange-light); }
+    #highlights .section-title { color: var(--navy); }
+    #highlights .section-label { color: var(--orange); }
 
     .highlights-grid {
       display: grid;
@@ -424,16 +424,16 @@
     }
 
     .highlight-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
+      background: #ffffff;
+      border: 1px solid #e0d8d0;
       border-top: 3px solid var(--orange);
       border-radius: 6px;
       padding: 2rem 1.75rem;
       transition: background 0.2s;
-    }
+      transition: background 0.2s, box-shadow 0.2s;
 
     .highlight-card:hover {
-      background: rgba(255,255,255,0.08);
+      background: #fff8f5;
     }
 
     .highlight-icon {
@@ -446,14 +446,14 @@
       font-family: 'Playfair Display', serif;
       font-size: 1.15rem;
       font-weight: 600;
-      color: var(--white);
+      color: #1a2a3a;
       margin-bottom: 0.75rem;
     }
 
     .highlight-text {
       font-size: 0.88rem;
       line-height: 1.7;
-      color: rgba(255,255,255,0.65);
+      color: #555;
     }
 
     /* ── GALLERY ── */
@@ -648,12 +648,12 @@
 
     /* ── INVESTMENT METRICS ── */
     #metrics {
-      background: var(--navy);
+      background: #ffffff;
       padding: 5rem 2rem;
     }
 
-    #metrics .section-title { color: var(--white); }
-    #metrics .section-label { color: var(--orange-light); }
+    #metrics .section-title { color: var(--navy); }
+    #metrics .section-label { color: var(--orange); }
 
     .metrics-grid {
       display: grid;
@@ -662,19 +662,20 @@
       margin-top: 3rem;
     }
 
-    .metric-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: #ffffff;
+      border: 1px solid #e0d8d0;
+      border: 1px solid #e0d8d0;
       border-radius: 8px;
       padding: 2rem 1.5rem;
       text-align: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.07);
     }
 
     .metric-value {
       font-family: 'Playfair Display', serif;
       font-size: 2rem;
       font-weight: 700;
-      color: var(--orange-light);
+      color: var(--orange);
       display: block;
       line-height: 1;
       margin-bottom: 0.5rem;
@@ -685,12 +686,12 @@
       font-weight: 600;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.55);
+      color: #555;
     }
 
     .metric-note {
       font-size: 0.72rem;
-      color: rgba(255,255,255,0.35);
+      color: #888;
       margin-top: 0.5rem;
       display: block;
     }
@@ -698,11 +699,11 @@
     .metrics-disclaimer {
       margin-top: 2rem;
       padding: 1.25rem 1.5rem;
-      background: rgba(255,255,255,0.04);
+      background: #fff8f5;
       border-left: 3px solid var(--orange);
       border-radius: 0 4px 4px 0;
       font-size: 0.78rem;
-      color: rgba(255,255,255,0.45);
+      color: #666;
       line-height: 1.6;
     }
 
@@ -889,7 +890,7 @@
 
     .footer-text {
       font-size: 0.72rem;
-      color: rgba(255,255,255,0.35);
+      color: #666;
       line-height: 1.7;
       max-width: 700px;
       margin: 0 auto;
@@ -1407,12 +1408,12 @@
 </section>
 
 <!-- BUILD VS BUY -->
-<section id="buildvsbuy" style="background:#1c1c1c;padding:5rem 0;">
+<section id="buildvsbuy" style="background:#f0f4f8;padding:5rem 0;">
   <div class="section-inner">
     <div class="fade-in" style="text-align:center;margin-bottom:3.5rem;">
       <div class="section-label" style="color:var(--pier-orange);">The Case for Acquisition</div>
-      <h2 class="section-title" style="color:#fff;">You Cannot Build This for What You Can Buy It</h2>
-      <p style="max-width:720px;margin:1rem auto 0;font-size:1.05rem;color:#bbb;line-height:1.8;">
+      <h2 class="section-title" style="color:#1a2a3a;">You Cannot Build This for What You Can Buy It</h2>
+      <p style="max-width:720px;margin:1rem auto 0;font-size:1.05rem;color:#444;line-height:1.8;">
         The math is unambiguous. Building a purpose-built specialty medical office building in Savannah today — on a comparable corner lot, with comparable finishes and clinical infrastructure — costs significantly more than acquiring this asset. Here is what the numbers say.
       </p>
     </div>
@@ -1425,39 +1426,39 @@
       <!-- Cost breakdown visual cards -->
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:1.5rem;">
         
-        <div class="fade-in" style="background:#2a2a2a;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;">
+        <div class="fade-in" style="background:#fff;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
           <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--pier-orange);margin-bottom:0.4rem;">Shell Construction</div>
-          <div style="font-size:1.5rem;font-weight:800;color:#fff;line-height:1.1;">$200–$280<span style="font-size:0.85rem;font-weight:500;color:#aaa;">/SF</span></div>
-          <div style="font-size:0.8rem;color:#999;margin-top:0.3rem;">$3.2M–$4.5M total</div>
-          <div style="font-size:0.72rem;color:#666;margin-top:0.4rem;">Structure, envelope, roofing</div>
+          <div style="font-size:1.5rem;font-weight:800;color:#1a2a3a;line-height:1.1;">$200–$280<span style="font-size:0.85rem;font-weight:500;color:#888;">/SF</span></div>
+          <div style="font-size:0.8rem;color:#555;margin-top:0.3rem;">$3.2M–$4.5M total</div>
+          <div style="font-size:0.72rem;color:#777;margin-top:0.4rem;">Structure, envelope, roofing</div>
         </div>
 
-        <div class="fade-in" style="background:#2a2a2a;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;">
+        <div class="fade-in" style="background:#fff;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
           <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--pier-orange);margin-bottom:0.4rem;">Medical Interior Build-Out</div>
-          <div style="font-size:1.5rem;font-weight:800;color:#fff;line-height:1.1;">$120–$200<span style="font-size:0.85rem;font-weight:500;color:#aaa;">/SF</span></div>
-          <div style="font-size:0.8rem;color:#999;margin-top:0.3rem;">$1.9M–$3.2M total</div>
-          <div style="font-size:0.72rem;color:#666;margin-top:0.4rem;">Exam rooms, MEP, med-gas, casework</div>
+          <div style="font-size:1.5rem;font-weight:800;color:#1a2a3a;line-height:1.1;">$120–$200<span style="font-size:0.85rem;font-weight:500;color:#888;">/SF</span></div>
+          <div style="font-size:0.8rem;color:#555;margin-top:0.3rem;">$1.9M–$3.2M total</div>
+          <div style="font-size:0.72rem;color:#777;margin-top:0.4rem;">Exam rooms, MEP, med-gas, casework</div>
         </div>
 
-        <div class="fade-in" style="background:#2a2a2a;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;">
+        <div class="fade-in" style="background:#fff;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
           <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--pier-orange);margin-bottom:0.4rem;">Architecture &amp; Engineering</div>
-          <div style="font-size:1.5rem;font-weight:800;color:#fff;line-height:1.1;">$28–$44<span style="font-size:0.85rem;font-weight:500;color:#aaa;">/SF</span></div>
-          <div style="font-size:0.8rem;color:#999;margin-top:0.3rem;">$448K–$703K total</div>
-          <div style="font-size:0.72rem;color:#666;margin-top:0.4rem;">8–12% of construction cost</div>
+          <div style="font-size:1.5rem;font-weight:800;color:#1a2a3a;line-height:1.1;">$28–$44<span style="font-size:0.85rem;font-weight:500;color:#888;">/SF</span></div>
+          <div style="font-size:0.8rem;color:#555;margin-top:0.3rem;">$448K–$703K total</div>
+          <div style="font-size:0.72rem;color:#777;margin-top:0.4rem;">8–12% of construction cost</div>
         </div>
 
-        <div class="fade-in" style="background:#2a2a2a;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;">
+        <div class="fade-in" style="background:#fff;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
           <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--pier-orange);margin-bottom:0.4rem;">Site Development</div>
-          <div style="font-size:1.5rem;font-weight:800;color:#fff;line-height:1.1;">$24–$48<span style="font-size:0.85rem;font-weight:500;color:#aaa;">/SF</span></div>
-          <div style="font-size:0.8rem;color:#999;margin-top:0.3rem;">$384K–$768K total</div>
-          <div style="font-size:0.72rem;color:#666;margin-top:0.4rem;">Grading, paving, utilities, landscaping</div>
+          <div style="font-size:1.5rem;font-weight:800;color:#1a2a3a;line-height:1.1;">$24–$48<span style="font-size:0.85rem;font-weight:500;color:#888;">/SF</span></div>
+          <div style="font-size:0.8rem;color:#555;margin-top:0.3rem;">$384K–$768K total</div>
+          <div style="font-size:0.72rem;color:#777;margin-top:0.4rem;">Grading, paving, utilities, landscaping</div>
         </div>
 
-        <div class="fade-in" style="background:#2a2a2a;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;">
+        <div class="fade-in" style="background:#fff;border-left:4px solid var(--pier-orange);border-radius:6px;padding:1.25rem 1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
           <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--pier-orange);margin-bottom:0.4rem;">Permits, Fees &amp; Contingency</div>
-          <div style="font-size:1.5rem;font-weight:800;color:#fff;line-height:1.1;">$48–$68<span style="font-size:0.85rem;font-weight:500;color:#aaa;">/SF</span></div>
-          <div style="font-size:0.8rem;color:#999;margin-top:0.3rem;">$768K–$1.09M total</div>
-          <div style="font-size:0.72rem;color:#666;margin-top:0.4rem;">Permits, inspections, 10% contingency</div>
+          <div style="font-size:1.5rem;font-weight:800;color:#1a2a3a;line-height:1.1;">$48–$68<span style="font-size:0.85rem;font-weight:500;color:#888;">/SF</span></div>
+          <div style="font-size:0.8rem;color:#555;margin-top:0.3rem;">$768K–$1.09M total</div>
+          <div style="font-size:0.72rem;color:#777;margin-top:0.4rem;">Permits, inspections, 10% contingency</div>
         </div>
 
       </div>
@@ -1466,7 +1467,7 @@
       <div class="fade-in" style="background:var(--pier-orange);border-radius:8px;padding:1.75rem 2rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;">
         <div>
           <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.8);margin-bottom:0.3rem;">Savannah-Adjusted Total Estimated Replacement Cost</div>
-          <div style="font-size:0.75rem;color:rgba(255,255,255,0.65);">All hard costs + soft costs + A&amp;E + site work + permits + contingency &mdash; land not included</div>
+          <div style="font-size:0.75rem;color:#666;">All hard costs + soft costs + A&amp;E + site work + permits + contingency &mdash; land not included</div>
         </div>
         <div style="text-align:right;">
           <div style="font-size:2.6rem;font-weight:900;color:#fff;line-height:1;">$6.7M – $9.6M+</div>
@@ -1479,15 +1480,15 @@
 
     <!-- Three callout boxes -->
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;max-width:960px;margin:0 auto 2rem;">
-      <div class="fade-in" style="background:#2a2a2a;border:1px solid #3a3a3a;border-top:3px solid var(--pier-orange);border-radius:8px;padding:1.8rem;text-align:center;">
+      <div class="fade-in" style="background:#ffffff;border:1px solid #e0d8d0;border-top:3px solid var(--pier-orange);border-radius:8px;padding:1.8rem;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.07);">
         <div style="font-size:2.4rem;font-weight:900;color:var(--pier-orange);margin-bottom:0.4rem;">$380+</div>
-        <div style="font-size:0.82rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:#fff;margin-bottom:0.6rem;">Minimum Build Cost / SF<br><span style="color:#888;font-size:0.75rem;">Savannah Market</span></div>
-        <p style="font-size:0.86rem;color:#aaa;line-height:1.65;">The realistic floor for total project cost in Savannah — hard costs, soft costs, A&amp;E, site work, and permits. Most well-finished specialty medical projects land $450–$550/SF here.</p>
+        <div style="font-size:0.82rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:#1a2a3a;margin-bottom:0.6rem;">Minimum Build Cost / SF<br><span style="color:#888;font-size:0.75rem;">Savannah Market</span></div>
+        <p style="font-size:0.86rem;color:#555;line-height:1.65;">The realistic floor for total project cost in Savannah — hard costs, soft costs, A&amp;E, site work, and permits. Most well-finished specialty medical projects land $450–$550/SF here.</p>
       </div>
-      <div class="fade-in" style="background:#2a2a2a;border:1px solid #3a3a3a;border-top:3px solid #fff;border-radius:8px;padding:1.8rem;text-align:center;">
-        <div style="font-size:2.4rem;font-weight:900;color:#fff;margin-bottom:0.4rem;">$6.7M–$9.6M</div>
-        <div style="font-size:0.82rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:#fff;margin-bottom:0.6rem;">Total Replacement Cost<br><span style="color:#888;font-size:0.75rem;">Construction Only, Excl. Land</span></div>
-        <p style="font-size:0.86rem;color:#aaa;line-height:1.65;">What it would cost to replicate this building from the ground up in Savannah today — before purchasing the land beneath it.</p>
+      <div class="fade-in" style="background:#ffffff;border:1px solid #e0d8d0;border-top:3px solid var(--pier-orange);border-radius:8px;padding:1.8rem;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.07);">
+        <div style="font-size:2.4rem;font-weight:900;color:var(--pier-orange);margin-bottom:0.4rem;">$6.7M–$9.6M</div>
+        <div style="font-size:0.82rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:#1a2a3a;margin-bottom:0.6rem;">Total Replacement Cost<br><span style="color:#888;font-size:0.75rem;">Construction Only, Excl. Land</span></div>
+        <p style="font-size:0.86rem;color:#555;line-height:1.65;">What it would cost to replicate this building from the ground up in Savannah today — before purchasing the land beneath it.</p>
       </div>
       <div class="fade-in" style="background:var(--pier-orange);border-radius:8px;padding:1.8rem;text-align:center;">
         <div style="font-size:2.4rem;font-weight:900;color:#fff;margin-bottom:0.4rem;">18–24 Mo.</div>
@@ -1497,9 +1498,9 @@
     </div>
 
     <!-- Bottom narrative -->
-    <div class="fade-in" style="max-width:760px;margin:2rem auto 0;border:1px solid #3a3a3a;border-left:4px solid var(--pier-orange);border-radius:8px;padding:2rem 2.5rem;">
+    <div class="fade-in" style="max-width:760px;margin:2rem auto 0;background:#fff;border:1px solid #e0d8d0;border-left:4px solid var(--pier-orange);border-radius:8px;padding:2rem 2.5rem;box-shadow:0 4px 16px rgba(0,0,0,0.07);">
       <p style="font-size:1.1rem;font-weight:700;color:var(--pier-orange);margin-bottom:0.75rem;line-height:1.5;">&ldquo;You cannot build a purpose-built specialty medical office building in Savannah today for anywhere near what you can acquire this one. And you cannot find this corner again.&rdquo;</p>
-      <p style="font-size:0.9rem;color:#bbb;line-height:1.75;">This is a rare opportunity to acquire a purpose-built, two-story specialty medical office building at a significant discount to replacement cost, on an irreplaceable signalized corner in Savannah's primary medical corridor — with income in place from HCA Healthcare Systems while you plan your next move.</p>
+      <p style="font-size:0.9rem;color:#444;line-height:1.75;">This is a rare opportunity to acquire a purpose-built, two-story specialty medical office building at a significant discount to replacement cost, on an irreplaceable signalized corner in Savannah's primary medical corridor — with income in place from HCA Healthcare Systems while you plan your next move.</p>
     </div>
   </div>
 </section>
