@@ -437,9 +437,12 @@
     }
 
     .highlight-icon {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      width: 32px;
+      height: 4px;
+      background: var(--pier-orange);
       display: block;
+      margin-bottom: 1.2rem;
+      border-radius: 2px;
     }
 
     .highlight-title {
@@ -846,11 +849,14 @@
     .contact-details a:hover { color: var(--orange); }
 
     .contact-icon {
-      color: var(--orange);
-      font-size: 0.9rem;
-      width: 16px;
-      text-align: center;
+      width: 8px;
+      height: 8px;
+      min-width: 8px;
+      background: var(--pier-orange);
+      border-radius: 1px;
       flex-shrink: 0;
+      display: inline-block;
+      vertical-align: middle;
     }
 
     .btn-contact {
@@ -1020,11 +1026,11 @@
       <span class="hero-pill">1.78 Acres</span>
       <span class="hero-pill">HCA Healthcare Tenant</span>
       <span class="hero-pill">Signalized Corner</span>
-      <span class="hero-pill">NNN Lease</span>
+      <span class="hero-pill">Short-term NNN Lease</span>
       <span class="hero-pill">Offers Invited</span>
     </div>
     <div class="hero-cta-row">
-      <a href="#contact" class="btn-primary">Request Investment Package</a>
+      <a href="#contact" class="btn-primary">Request Tour</a>
       <a href="#overview" class="btn-outline">View Property Details</a>
     </div>
   </div>
@@ -1074,7 +1080,7 @@
           The current tenant is <strong>HCA Healthcare Systems</strong>, one of the nation's largest for-profit hospital operators, operating on a short-term NNN lease. This creates a compelling dual-path opportunity: re-lease to a long-term medical tenant at market rate, or acquire as an owner-user in a location that cannot be replicated.
         </p>
         <p>
-          The property last traded in July 2020 at <strong>$4,050,000</strong> ($253/SF), and carries a 2025 county appraised value of $3,700,000. It is being offered with no publicly stated asking price — <strong>offers are invited</strong>.
+          The property carries a 2025 county appraised value of $3,700,000 and is being offered with no publicly stated asking price — <strong>offers are invited</strong>.
         </p>
       </div>
       <div class="fade-in">
@@ -1125,10 +1131,6 @@
             <span class="spec-val">$3,700,000</span>
           </div>
           <div class="spec-row">
-            <span class="spec-key">Last Sale (Jul 2020)</span>
-            <span class="spec-val">$4,050,000 ($253/SF)</span>
-          </div>
-          <div class="spec-row">
             <span class="spec-key">Annual Taxes (2025)</span>
             <span class="spec-val">$42,607 (NNN)</span>
           </div>
@@ -1159,32 +1161,32 @@
     </div>
     <div class="highlights-grid">
       <div class="highlight-card fade-in">
-        <span class="highlight-icon">🏥</span>
+        <span class="highlight-icon"></span>
         <div class="highlight-title">Dual Hospital Corridor</div>
         <p class="highlight-text">Positioned between St. Joseph's/Candler Health System and Memorial Health/Children's Hospital of Savannah — both visible from the property. This is the geographic center of Savannah's healthcare demand zone, where patient referral networks converge.</p>
       </div>
       <div class="highlight-card fade-in">
-        <span class="highlight-icon">🏢</span>
+        <span class="highlight-icon"></span>
         <div class="highlight-title">HCA Healthcare Tenancy</div>
         <p class="highlight-text">HCA Healthcare is one of the nation's largest for-profit hospital systems with 186 hospitals and 2,400+ care sites. Their occupancy validates the location's institutional-grade appeal and provides immediate income while the buyer evaluates long-term strategy.</p>
       </div>
       <div class="highlight-card fade-in">
-        <span class="highlight-icon">📍</span>
+        <span class="highlight-icon"></span>
         <div class="highlight-title">Irreplaceable Corner Location</div>
         <p class="highlight-text">Signalized intersection of Abercorn Street (105' ROW) and Lee Boulevard (100' ROW) — a corner that cannot be replicated in this medical submarket. Adjacent to a newly constructed modern medical office building, the corridor is actively densifying.</p>
       </div>
       <div class="highlight-card fade-in">
-        <span class="highlight-icon">🔑</span>
+        <span class="highlight-icon"></span>
         <div class="highlight-title">Value-Add or Owner-User Play</div>
         <p class="highlight-text">The short-term lease creates a dual-path opportunity: an investor can re-lease at market rate to a long-term specialty medical tenant (cardiology, oncology, multi-specialty), or a medical group can acquire and occupy a purpose-built facility in an irreplaceable location.</p>
       </div>
       <div class="highlight-card fade-in">
-        <span class="highlight-icon">🚗</span>
+        <span class="highlight-icon"></span>
         <div class="highlight-title">Purpose-Built Medical Features</div>
         <p class="highlight-text">Covered patient drop-off canopy, 47 dedicated parking spaces (2.94/1,000 SF), private exam suites, nurse station, and a floor plan custom-engineered for high-volume specialty practice. These features are expensive to replicate and command premium rents.</p>
       </div>
       <div class="highlight-card fade-in">
-        <span class="highlight-icon">📈</span>
+        <span class="highlight-icon"></span>
         <div class="highlight-title">Strong Demographic Foundation</div>
         <p class="highlight-text">251,835 residents within 10 miles with average household income of $90,387. The Savannah MSA continues to grow driven by Port of Savannah expansion, military, tourism, and healthcare employment — all supporting long-term medical office demand.</p>
       </div>
@@ -1391,11 +1393,6 @@
         <span class="metric-note">2025 — NNN (tenant responsibility)</span>
       </div>
       <div class="metric-card fade-in">
-        <span class="metric-value">$253</span>
-        <span class="metric-label">Last Sale Price / SF</span>
-        <span class="metric-note">$4,050,000 — July 2020</span>
-      </div>
-      <div class="metric-card fade-in">
         <span class="metric-value">$3.7M</span>
         <span class="metric-label">County Appraised Value</span>
         <span class="metric-note">2025 — Appeal Decision</span>
@@ -1467,7 +1464,7 @@
       <div class="fade-in" style="background:var(--pier-orange);border-radius:8px;padding:1.75rem 2rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;">
         <div>
           <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.8);margin-bottom:0.3rem;">Savannah-Adjusted Total Estimated Replacement Cost</div>
-          <div style="font-size:0.75rem;color:#666;">All hard costs + soft costs + A&amp;E + site work + permits + contingency &mdash; land not included</div>
+          <div style="font-size:0.75rem;color:rgba(255,255,255,0.75);">All hard costs + soft costs + A&amp;E + site work + permits + contingency &mdash; land not included</div>
         </div>
         <div style="text-align:right;">
           <div style="font-size:2.6rem;font-weight:900;color:#fff;line-height:1;">$6.7M – $9.6M+</div>
@@ -1571,24 +1568,24 @@
       <div class="contact-title-text">President · PIER Commercial Real Estate</div>
       <ul class="contact-details">
         <li>
-          <span class="contact-icon">📞</span>
+          <span class="contact-icon"></span>
           <a href="tel:9122396298">(912) 239-6298</a>
         </li>
         <li>
-          <span class="contact-icon">✉</span>
+          <span class="contact-icon"></span>
           <a href="mailto:ryan@piercommercial.com">ryan@piercommercial.com</a>
         </li>
         <li>
-          <span class="contact-icon">🌐</span>
+          <span class="contact-icon"></span>
           <a href="https://www.piercommercial.com" target="_blank">www.piercommercial.com</a>
         </li>
         <li>
-          <span class="contact-icon">📍</span>
+          <span class="contact-icon"></span>
           Savannah, GA — Coastal GA & Lowcountry SC
         </li>
       </ul>
       <a href="mailto:ryan@piercommercial.com?subject=6301 Abercorn Street — Investment Inquiry&body=Hello Ryan, I am interested in learning more about The Cardiology Building at 6301 Abercorn Street. Please send me the investment package." class="btn-contact">
-        Request Investment Package
+        Request Tour
       </a>
     </div>
   </div>
