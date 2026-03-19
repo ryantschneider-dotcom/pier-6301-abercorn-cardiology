@@ -113,14 +113,16 @@
     .hero-bg {
       position: absolute;
       inset: 0;
-      background-image: url('web_images/aerial_hospitals.jpg');
-      background-size: cover;
-      background-position: center 40%;
-      transform: scale(1.05);
-      transition: transform 8s ease-out;
+      overflow: hidden;
     }
-
-    .hero-bg.loaded { transform: scale(1); }
+    .hero-bg video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+      display: block;
+    }
+    .hero-bg.loaded { opacity: 1; }
 
     .hero-overlay {
       position: absolute;
@@ -1011,7 +1013,11 @@
 
 <!-- HERO -->
 <section id="hero">
-  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-bg" id="heroBg">
+    <video autoplay muted loop playsinline poster="web_images/aerial_hospitals.jpg">
+      <source src="hero_abercorn.mp4" type="video/mp4">
+    </video>
+  </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-eyebrow">Investment Offering · Medical Office · Savannah, GA</div>
